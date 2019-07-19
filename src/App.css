@@ -13,9 +13,22 @@
   color: white;
 }
 
-.app-link {
+.question-button {
   font-size: 30px;
   text-decoration: none;
-  color: black;
+  color: white;
+  /* display: inline-block; */
 }
 
+h1 {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+h2 {
+}
+
+.question-image {
+  /* display: inline-block; */
+  height: 200px;
+}

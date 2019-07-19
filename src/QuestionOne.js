@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "./logo.svg";
+import circle from "./circle.png";
 import "./App.css";
 
 function QuestionOne() {
@@ -10,17 +10,19 @@ function QuestionOne() {
         <h1>What are you looking for?</h1>
         <h2>Do you like things that are...</h2>
         <div className="pure-g">
-          <div class="pure-u-1-3">
-            <Link to="questiontwo" className="pure-button">
-              Soft and fluffy
+          <div className="pure-u-1-3">
+            <Link to="questiontwo" className="question-button">
+              <img src={circle} className="question-image" />
+              <p>Soft and fluffy?</p>
             </Link>
           </div>
-          <div class="pure-u-1-3">
+          <div className="pure-u-1-3">
             <p>or</p>
           </div>
-          <div class="pure-u-1-3">
-            <Link to="questiontwo" className="pure-button">
-              Hard and spikey
+          <div className="pure-u-1-3">
+            <Link to="questiontwo" className="question-button">
+              <img src={circle} className="question-image" />
+              <p>Hard and spikey?</p>
             </Link>
           </div>
         </div>
