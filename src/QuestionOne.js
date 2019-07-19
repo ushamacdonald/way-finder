@@ -7,13 +7,23 @@ function QuestionOne() {
   return (
     <div className="App">
       <header className="App-header">
-        <p className="">Do you like the colour red?</p>
-        <button>
-          <Link to="questiontwo">Soft and fluffy</Link>
-        </button>
-        <button>
-          <Link to="questiontwo">Hard and spikey</Link>
-        </button>
+        <h1>What are you looking for?</h1>
+        <h2>Do you like things that are...</h2>
+        <div className="pure-g">
+          <div class="pure-u-1-3">
+            <Link to="questiontwo" className="pure-button">
+              Soft and fluffy
+            </Link>
+          </div>
+          <div class="pure-u-1-3">
+            <p>or</p>
+          </div>
+          <div class="pure-u-1-3">
+            <Link to="questiontwo" className="pure-button">
+              Hard and spikey
+            </Link>
+          </div>
+        </div>
       </header>
     </div>
   );
